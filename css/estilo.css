@@ -123,7 +123,27 @@ i {
 }
 
 .tabela h2 {
-	color: #747678;
+	color: #ffffff;
+	background: #04AA6D;
+	width: 389px;
+	padding: 5px;
+}
+
+.tabela tr {
+	color: #FFFFFF;
+}
+
+.tabela td {
+	color: #000000;
+}
+
+.tabela th {
+	color: #000000;
+	background: #04AA6D;
+}
+
+:scope th {
+	color:#000000
 }
 
 .rosaneto {
@@ -134,7 +154,6 @@ i {
 .rosaneto img {
 	width: 100px;
 	height: 100px;
-	border-radius: 50%;
 	float: right;
 }
 
@@ -158,10 +177,7 @@ table {
 	width: 400px;
 	margin-bottom: 20px;
 	margin-right: 20px;
-}
-
-table td, tr {
-	color: #FFFFFF;
+	background-color: #DDDDDD;
 }
 
 footer {
